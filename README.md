@@ -1,5 +1,7 @@
 # machine-learning-models-ai-testing
 
+Link - https://www.udemy.com/course/machine-learning-models-ai-testing/
+
 ## Description
 This course will introduce you to the World of Machine Learning Models Testing.
 
