@@ -46,3 +46,18 @@ Underfitting, Good Fit & Overfitting
 **Key takeaway:** The goal is to achieve a good fit so the model generalizes well to unseen data. QA can evaluate ML behaviour through black-box testing without understanding internal algorithms.
 
 ![alt text](image-15.png)
+
+
+```txt
+So as a QA you need not go inside the code based on the data you have.
+
+You can keep testing your ML blindly as a black box.
+
+Okay, don't worry about what is happening inside.
+
+They will give you the software, keep testing it and see how the values or how the accuracy is going
+
+down or going up, or it is fitting there.
+
+That's where you will actively involved in this engineering phase.
+```
