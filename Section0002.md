@@ -24,9 +24,6 @@
 
 8. **Two common ML problems:** Overfitting and Underfitting, which affect the model's ability to generalize to unseen data.
 
-![alt text](image-13.png)
-
-![alt text](image-14.png)
 
 
 ## Understand how OverFitting Testng & UnderFitting works with Trained data sets
@@ -61,3 +58,32 @@ down or going up, or it is fitting there.
 
 That's where you will actively involved in this engineering phase.
 ```
+
+## Predicting House Prices (ML Model) Demo to show how internally Algorithms works
+
+Understand how a machine learning model predicts house prices from features like size, bedrooms, and age, using training data, linear regression, train/test splits, and fit/predict with evaluation.  
+
+![alt text](image-13.png)
+
+![alt text](image-14.png)
+
+
+House Price Prediction – ML Model Training & Evaluation
+
+1. **Problem Definition:** Predict house prices using features (X) such as square footage, number of bedrooms and house age. Price is the target/label (Y).
+
+2. **Algorithm Selection:** Linear Regression can be used for house price prediction. Algorithm selection depends on the problem and data complexity. QA mainly focuses on data quality and model performance, not internal algorithms.
+
+3. **Data Splitting:** Divide the dataset into training and validation sets. Example: 80% for training and 20% for validation (`test_size=0.2`).
+
+4. **Model Training:** Python's Scikit-learn (`sklearn`) provides ML libraries. `fit()` trains the model using training data, while `predict()` generates predictions using unseen/test inputs.
+
+5. **Validation:** Provide X_test (features) and compare predicted Y values (Y_pred) against actual Y_test values to evaluate accuracy.
+
+6. **Visualization:** Matplotlib generates graphs using scatter() and plot(). Compare actual vs predicted values to identify good fit, underfitting and overfitting.
+
+7. **QA Role:** Test the model as a black box, compare actual and predicted outputs, analyse graphs and report performance issues to developers for tuning.
+
+## Revision on Supervised Learning Model Testing with Overfitting/UnderFitting
+
+![alt text](image-16.png)
