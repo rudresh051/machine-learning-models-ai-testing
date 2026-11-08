@@ -87,3 +87,27 @@ House Price Prediction – ML Model Training & Evaluation
 ## Revision on Supervised Learning Model Testing with Overfitting/UnderFitting
 
 ![alt text](image-16.png)
+
+![alt text](image-18.png)
+
+* **Signs of Overfitting**
+
+![alt text](image-19.png)
+
+* **Solutions for Overfitting**
+
+![alt text](image-20.png)
+
+* **Underfitting**
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+
+* **Signs of Underfitting**
+
+![alt text](image-23.png)
+
+* Solutions for underfitting
+
+![alt text](image-24.png)
