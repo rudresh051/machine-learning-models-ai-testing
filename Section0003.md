@@ -53,3 +53,8 @@
 
 ## Revision on Unsupervised Learning with cluster score analysis
 
+![alt text](image-25.png)
+
+* Score analysis
+
+![alt text](image-26.png)
