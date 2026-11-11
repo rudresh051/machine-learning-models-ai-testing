@@ -14,6 +14,8 @@
 
 ![alt text](image-41.png)
 
+![alt text](image-60.png)
+
 ## Prompts Testing with Zero Shot & Chain of thought Prompts test
 
 ![alt text](image-43.png)
@@ -121,3 +123,33 @@
 > Learn invariance and bidirectional testing for AI models, ensuring predictions stay stable when irrelevant data changes or inputs are swapped, and practice evaluating unseen data against core conditions.
 
 ![alt text](image-56.png)
+
+![alt text](image-58.png)
+
+![alt text](image-57.png)
+
+![alt text](image-59.png)
+
+1. **Invariance Testing**
+
+- Checks whether an ML model produces the same prediction when irrelevant input details are changed or added.
+- The core features responsible for the prediction must remain unchanged.
+- Example: In a medical AI model predicting heart attack risk, changing the patient's name (Bob to Alice), location, or date-of-birth format should not affect the prediction if age and underlying health conditions remain the same.
+- QA objective: Verify that the model ignores irrelevant information and bases predictions on the relevant features.
+
+2. **Bidirectional Testing**
+
+- Checks whether the model produces consistent outputs when logically interchangeable or symmetric input features are swapped.
+- Example: An AI model analyses left and right lung X-rays. If the left and right lung inputs are exchanged, the prediction should remain the same when the underlying medical information is equivalent.
+- Swapping must be logically meaningful; not every input can be reversed.
+- QA objective: Verify that exchanging equivalent inputs does not unexpectedly change the prediction.
+
+3. **Difference Between Testing Approaches**
+
+| Testing type       | What changes?                 | Expected result   |
+| ------------------ | ----------------------------- | ----------------- |
+| Invariance         | Add/change irrelevant details | Same prediction   |
+| Bidirectional      | Exchange symmetric inputs     | Same prediction   |
+| Different phrasing | Reword the same question      | Comparable answer |
+
+Key Takeaway: ML testing goes beyond basic functional testing. QA must challenge models with different input variations and strategies to expose defects in prediction and behaviour. The goal is to identify situations where a model produces incorrect or inconsistent outputs.
