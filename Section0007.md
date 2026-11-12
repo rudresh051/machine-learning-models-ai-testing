@@ -58,3 +58,39 @@
 - Ethical testing is especially important in healthcare and criminal justice.
 
 **Key Takeaway:** Responsible AI testing ensures that models are explainable, transparent, and ethically responsible within defined business boundaries.
+
+## Data Privacy and Security testing on Machine Learning models
+
+> Evaluate data privacy and security in AI models by testing training and validation data, guarding against personal data leakage while ensuring generalization across diverse environments.
+
+> Self-Reminder - List down ML testing types which have been discussed
+
+![alt text](image-71.png)
+
+![alt text](image-72.png)
+
+![alt text](image-73.png)
+
+1. **Data Privacy & Security Testing:**
+
+- Ensures AI models do not expose sensitive personal information from training, validation, or test datasets.
+- Example: A healthcare AI should not reveal a person's medical details, and a chatbot should not disclose a celebrity's home address.
+- Test with direct and indirectly phrased questions to check whether the model leaks confidential information.
+- Facial recognition systems must not expose personal images used during training or testing.
+- QA should collaborate with developers and data teams to identify sensitive data and design relevant test scenarios.
+
+2. **Generalization Testing:**
+
+- Checks whether a model performs consistently across different environments, regions, and datasets.
+- A model trained on US data may behave differently with Indian or South African data.
+- For globally targeted models, use diverse validation datasets and monitor performance degradation.
+- If performance drops in certain environments, improve the model or explicitly restrict its supported scope.
+
+3. **Sociotechnical Impact Testing:**
+
+- Evaluates the overall impact of AI on society and ensures it does not encourage harmful behaviour.
+- Example: A youth guidance AI should provide career and emotional support without recommending drugs or harmful activities.
+- QA tests potentially harmful prompts and verifies that the model responds responsibly.
+- Developers may need to fine-tune algorithms to prevent negative societal outcomes.
+
+**Key Takeaway:** Responsible AI testing goes beyond functional correctness. QA must verify privacy, security, generalization, and positive societal impact before model validation sign-off.
